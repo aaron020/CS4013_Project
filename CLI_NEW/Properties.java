@@ -13,10 +13,11 @@ public class Properties {
      * @param p
      */
     public void addProperty(Property p){
-        CSV write = new CSV();
-        write.add(p);
-        PropertyTax tax = new PropertyTax();
-        tax.addPropertyTax(p);
+        //edit : this causes an endless loop of writing to the CSV files
+//         CSV write = new CSV();
+//         write.add(p);
+//         PropertyTax tax = new PropertyTax();
+//         tax.addPropertyTax(p);
         properties.add(p);
     }
 
