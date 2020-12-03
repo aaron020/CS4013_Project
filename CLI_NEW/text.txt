@@ -1,3 +1,0 @@
-Both the .csv files have to be put in a folder called CSV in order for the program to run
-The test programs can be changed
-menu.java still needs to be made
