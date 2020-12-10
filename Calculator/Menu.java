@@ -75,7 +75,8 @@ public class Menu {
             }
         }
     }
-
+--------------------------------------------------------------------------------------------------------------------------
+//NEW METHOD
     private void changeCalculator(){
         System.out.println("Change Calculator values (Enter -1 to keep default)");
         double[] newRates = {-1,-1,-1,-1};
@@ -102,6 +103,8 @@ public class Menu {
         newCharge[4] = ask.nextInt();
         properties.changeCalc(newRates,newCharge);
     }
+   //Everything else is the same 
+------------------------------------------------------------------------------------------------------------------------------------    
 
     private void byName(){
         ask.nextLine();
