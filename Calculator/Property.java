@@ -11,6 +11,8 @@ public class Property {
     private double estMarketVal;
     private String category;
     private boolean privateRes;
+    --------------------------------------------------------------
+        //Added instead of private double propertyTax
     private Calculator c;
 
     /**
@@ -91,11 +93,13 @@ public class Property {
     public double getPropertyTax() {
         return this.c.getPropertyTax();
     }
-
+-------------------------------------------------------------------------------------------
+    //New Method
     public void changeCalc(double[] newRates,int[] charge){
         c.changeCalc(newRates,charge);
     }
-
+------------------------------------------------------------------------------------------
+    //All of these have been deleted (Moved to calculator class)
 //    /**
 //     * Calculates the property tax
 //     */
