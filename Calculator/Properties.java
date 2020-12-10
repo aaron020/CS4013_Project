@@ -63,13 +63,14 @@ public class Properties {
         }
         return namesNoRepeat;
     }
-
+--------------------------------------------------------------------------------------------
+    //New method
     public void changeCalc(double[] newRates,int[] charge){
         for(Property p : properties){
             p.changeCalc(newRates,charge);
         }
     }
-
+----------------------------------------------------------------------------------------------
     /**
      * Returns the properties arraylist
      * @return
